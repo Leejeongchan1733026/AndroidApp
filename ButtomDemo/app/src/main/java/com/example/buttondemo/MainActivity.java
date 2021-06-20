@@ -20,8 +20,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void onClick02 (View v){
-        Toast.makeText(getApplicationContext(), "버튼 누름"), Toast.LENGTH_LONG).show();
+    public void onClick02(View v){
+        Intent intent = new Intent(getApplicationContext(), SubActivity2.class);
+        startActivity(intent);
     }
 
     public void onClick03(View v){
